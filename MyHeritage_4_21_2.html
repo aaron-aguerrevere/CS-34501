@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html amp4ads>
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <style amp4ads-boilerplate>
+        body{visibility:hidden}
+    </style>
+    <style amp-custom>
+		@font-face {
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 300;
+			src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTegdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+		}
+		@font-face {
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 400;
+			src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+		}
+		@font-face {
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 600;
+			src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v10/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+		}
+		@font-face {
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 700;
+			src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+		}
+		@font-face {
+			font-family: 'Open Sans';
+			font-style: italic;
+			font-weight: 300;
+			src: local('Open Sans Light Italic'), local('OpenSansLight-Italic'), url(https://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxko2lTMeWA_kmIyWrkNCwPc.woff2) format('woff2'), url(https://fonts.gstatic.com/s/opensans/v10/PRmiXeptR36kaC0GEAetxh_xHqYgAV9Bl_ZQbYUxnQU.woff) format('woff');
+		}
+
+		/*~~~~~~ global ~~~~~~*/
+		body {
+			box-sizing: border-box;
+  			height: 250px;
+  			width: 300px;
+  			border: 1px solid #000000;
+			background-color: #FFFFFF;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		/*~~~~~~ top section ~~~~~~*/
+		.logo {
+			height: 24px;
+			width: 121px;
+			padding: 9px 0px 0px 7px;
+            margin-bottom: 7px;
+		}
+
+		.band {
+			display: flex;
+			background-color: #F0EADF;
+			height: 67px;
+  			width: 100%;
+			margin-bottom: 11px;
+		}
+
+		.offer {
+			float: left;
+			padding: 7px;
+			width: 40%;
+			vertical-align: middle;
+			font-family: "Open Sans";
+ 		 	font-size: 13px;
+  			letter-spacing: 0;
+  			line-height: 18px;
+            margin-left: 14px;
+			color: #404F57;
+		}
+
+		.kit {
+			z-index: 5;
+			position: absolute;
+			right: 3px;
+			bottom: 114px;
+		}
+
+        /*~~~~~~ mid section ~~~~~~*/
+        .discover {
+			height: 44px;
+            width: 60%;
+            color: #404F56;
+            font-family: "Open Sans";
+            font-size: 17px;
+            letter-spacing: 0;
+            line-height: 22px;
+            margin-left: 14px;
+			margin-bottom: 10px;
+		}
+
+		#lastname {
+			font-family: "Open Sans";
+      font-weight: bold;
+			color: #B49561;
+		}
+
+		/*~~~~~~ bottom section ~~~~~~*/
+        
+		.button {
+			height: 40px;
+            width: 272px;
+			border-radius: 5px;
+			background-color: #B49561;
+			margin: 8px 14px 0px 14px;
+			box-shadow: 0 4px 4px -2px rgba(0,20,30,0.2);
+		}  
+
+		.cta {
+			color: #FFFFFF;
+			font-family: "Open Sans";
+			font-size: 18px;
+			font-weight: bold;
+			letter-spacing: 0;
+			line-height: 27px;
+			text-align: center;
+			vertical-align: middle;
+			padding-top: 6px;
+		}
+
+        .bottom {
+            display: flex;
+        }
+
+		.exclusive {
+            display: inline;
+			margin: 12px 0px 0px 9px;
+			height: 11px;
+            width: 100%;
+            opacity: 0.8;
+            color: #404F57;
+            font-family: "Open Sans";
+            font-size: 12px;
+            letter-spacing: 0;
+            line-height: 11px;
+		}
+
+        #legacy {
+            margin-top: 9px;
+            margin-right: 29px;
+        }
+
+    </style>
+    <script async src="https://cdn.ampproject.org/amp4ads-v0.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|PT+Serif:400,700&display=swap" rel="stylesheet">      
+  </head>
+  <body>
+  <a href="%%CLICK_URL_UNESC%%%%DEST_URL%%" target="_blank">
+
+	<!-- top section -->
+    <div class="logo">
+        <amp-img src="%%FILE:PNG1%%" height=17 width=106></amp-img>
+    </div>
+
+	<div class="band">
+		<div class="offer">FREE Shipping + access to family tree tools</div>
+	</div>
+
+	<div class="kit">
+		<amp-img src="%%FILE:PNG2%%" width=138 height=118></amp-img>
+	</div>
+
+    <!-- middle section -->
+    <div class="discover">
+        <span>Discover</span>
+        <span id="lastname">%%PATTERN:ln%%</span>
+        <span>DNA &amp; history.</span>
+    </div>
+    
+	<!-- bottom section -->
+    <div class="button">
+        <div class="cta">Order your DNA kit</div>
+    </div>
+    <div class="bottom">
+        <div class="exclusive">
+            <span class="exclusive">Exclusive offer in partnership with</span>
+        </div>
+        <div id="legacy">
+            <amp-img src="%%FILE:PNG3%%" height=18 width=56.84></amp-img>
+        </div>
+    </div>
+    
+  </a> 
+  </body>
+</html>
